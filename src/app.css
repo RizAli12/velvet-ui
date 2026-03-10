@@ -1,0 +1,23 @@
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --bg:       #080a0f;
+  --bg2:      #0e1117;
+  --bg3:      #14161c;
+  --border:   rgba(255,255,255,0.07);
+  --border-h: rgba(200,165,90,0.3);
+  --text:     #e8e6e0;
+  --muted:    #6b6b74;
+  --soft:     #9a96a0;
+  --gold:     #c8a55a;
+  --gold2:    #e4c17a;
+  --blue:     #7eb5d4;
+  --green:    #7dc4a0;
+  --red:      #d47e7e;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: system-ui, sans-serif;
+}
